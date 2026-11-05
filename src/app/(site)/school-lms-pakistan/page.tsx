@@ -4,7 +4,8 @@ import ServiceLanding from "@/components/site/ServiceLanding";
 
 export const metadata = pageMeta(
   "School LMS Pakistan",
-  "School LMS in Pakistan — courses, lessons, study material, assignments, quizzes and progress for schools, academies and tuition centers. By WordbitX."
+  "School LMS in Pakistan — courses, lessons, study material, assignments, quizzes and progress for schools, academies and tuition centers. By WordbitX.",
+  "/school-lms-pakistan"
 );
 
 export default function Page() {

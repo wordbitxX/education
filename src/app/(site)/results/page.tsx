@@ -3,7 +3,8 @@ import ResultsSearch from "./ResultsSearch";
 
 export const metadata = pageMeta(
   "Check Results",
-  "Check your school result online — search by Student ID, Roll Number, Class and Academic Session. Meridian Academy result portal."
+  "Check your school result online — search by Student ID, Roll Number, Class and Academic Session. Meridian Academy result portal.",
+  "/results"
 );
 
 export default function ResultsPage() {

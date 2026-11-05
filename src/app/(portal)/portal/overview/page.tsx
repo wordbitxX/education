@@ -3,7 +3,7 @@ import { Icon, type IconName } from "@/components/icons";
 import { Container, Section, SectionHeading, Card } from "@/components/ui";
 import { pageMeta } from "@/lib/seo";
 
-export const metadata = pageMeta("Portals", `Access the ${brand.name} student, parent, teacher and admin portals plus the LMS and LearnMate AI assistant.`);
+export const metadata = pageMeta("Portals", `Access the ${brand.name} student, parent, teacher and admin portals plus the LMS and LearnMate AI assistant.`, "/portal/overview");
 
 const portals: { key: string; title: string; desc: string; icon: IconName; color: string; href: string }[] = [
   { key: "student", title: "Student Portal", desc: "Timetable, assignments, exams, attendance, courses and progress in one place.", icon: "User", color: "#0f766e", href: "/portal/student" },

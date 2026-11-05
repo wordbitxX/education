@@ -9,7 +9,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata = pageMeta(
   "School Management Software Solutions by Region",
-  "WordbitX builds school management software, school ERP, LMS and education apps for institutions in Pakistan (Lahore, Islamabad, Karachi), UAE, Saudi Arabia, UK, USA, Canada and Australia."
+  "WordbitX builds school management software, school ERP, LMS and education apps for institutions in Pakistan (Lahore, Islamabad, Karachi), UAE, Saudi Arabia, UK, USA, Canada and Australia.",
+  "/solutions"
 );
 
 const keywordMap = [

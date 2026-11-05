@@ -4,7 +4,8 @@ import ServiceLanding from "@/components/site/ServiceLanding";
 
 export const metadata = pageMeta(
   "College Management Software Pakistan",
-  "College management software in Pakistan — programs, semesters, course registration, CGPA results and transcripts in one platform. By WordbitX."
+  "College management software in Pakistan — programs, semesters, course registration, CGPA results and transcripts in one platform. By WordbitX.",
+  "/college-management-software-pakistan"
 );
 
 export default function Page() {

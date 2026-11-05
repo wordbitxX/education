@@ -7,7 +7,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata = pageMeta(
   "Journal & Resources",
-  "Plain-language guides on school management software, school ERP, parent portals, student portals, school LMS and education technology — from WordbitX."
+  "Plain-language guides on school management software, school ERP, parent portals, student portals, school LMS and education technology — from WordbitX.",
+  "/journal"
 );
 
 export default function JournalPage() {
@@ -87,7 +88,7 @@ export default function JournalPage() {
               tone="light"
               description="WordbitX designs and develops custom education websites, portals, LMS platforms and school management software."
             />
-            <a href="https://www.wordbitxtech.com/" target="_blank" rel="noreferrer" className="shrink-0 rounded-full bg-white px-6 py-3 text-sm font-medium text-navy-950 transition hover:-translate-y-0.5 hover:shadow-lg">
+            <a href="https://wordbitx.com/" target="_blank" rel="noreferrer" className="shrink-0 rounded-full bg-white px-6 py-3 text-sm font-medium text-navy-950 transition hover:-translate-y-0.5 hover:shadow-lg">
               Explore WordbitX →
             </a>
           </div>

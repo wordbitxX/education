@@ -6,7 +6,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata = pageMeta(
   "Mission & Vision",
-  `${brand.name} mission: to make learning personal, connected and full of possibility. Vision, values and commitment to every learner.`
+  `${brand.name} mission: to make learning personal, connected and full of possibility. Vision, values and commitment to every learner.`,
+  "/about/mission"
 );
 
 export default function MissionPage() {

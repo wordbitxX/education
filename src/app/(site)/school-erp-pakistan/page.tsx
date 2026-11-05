@@ -4,7 +4,8 @@ import ServiceLanding from "@/components/site/ServiceLanding";
 
 export const metadata = pageMeta(
   "School ERP Software Pakistan",
-  "School ERP software for Pakistani schools — admissions, fee challans, HR & payroll, library, transport and store in one connected system. By WordbitX."
+  "School ERP software for Pakistani schools — admissions, fee challans, HR & payroll, library, transport and store in one connected system. By WordbitX.",
+  "/school-erp-pakistan"
 );
 
 export default function Page() {

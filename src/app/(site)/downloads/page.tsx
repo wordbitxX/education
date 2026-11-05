@@ -3,7 +3,8 @@ import DownloadsList from "./DownloadsList";
 
 export const metadata = pageMeta(
   "Downloads",
-  "Download the Meridian Academy prospectus, fee schedule, academic calendar, admission form and official policies."
+  "Download the Meridian Academy prospectus, fee schedule, academic calendar, admission form and official policies.",
+  "/downloads"
 );
 
 export default function DownloadsPage() {

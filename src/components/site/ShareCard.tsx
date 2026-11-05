@@ -18,8 +18,8 @@ export default function ShareCard() {
   const copy = async (key: "url" | "desc") => {
     const text =
       key === "url"
-        ? "https://meridianacademy.example/wordbitx"
-        : "Meridian Academy — a complete school & academy management platform (website, admissions, portals, LMS, AI assistant) — a WordbitX concept demo. wordbitxtech.com";
+        ? "https://education.wordbitx.pk/wordbitx"
+        : "Meridian Academy — a complete school & academy management platform (website, admissions, portals, LMS, AI assistant) — a WordbitX concept demo. wordbitx.com";
     try {
       await navigator.clipboard.writeText(text);
       setCopied(key);
@@ -40,7 +40,7 @@ export default function ShareCard() {
 
       <div className="mt-5 space-y-3">
         <div className="flex items-center gap-2 rounded-xl border border-navy-900/10 bg-cream p-3">
-          <code className="flex-1 truncate text-xs text-slate-600">https://meridianacademy.example/wordbitx</code>
+          <code className="flex-1 truncate text-xs text-slate-600">https://education.wordbitx.pk/wordbitx</code>
           <button onClick={() => copy("url")} className={cn("rounded-lg px-3 py-1.5 text-xs font-medium transition", copied === "url" ? "bg-mint text-white" : "bg-navy-900 text-white hover:bg-navy-800")}>
             {copied === "url" ? "Copied ✓" : "Copy URL"}
           </button>

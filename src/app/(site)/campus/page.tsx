@@ -5,7 +5,7 @@ import { Container, Section, SectionHeading, Reveal, Badge } from "@/components/
 import PageHeader from "@/components/site/PageHeader";
 import { pageMeta } from "@/lib/seo";
 
-export const metadata = pageMeta("Campus & Facilities", `Explore the classrooms, science labs, library, sports, technology, art and student spaces across the ${brand.name} campuses.`);
+export const metadata = pageMeta("Campus & Facilities", `Explore the classrooms, science labs, library, sports, technology, art and student spaces across the ${brand.name} campuses.`, "/campus");
 
 export default function CampusPage() {
   return (

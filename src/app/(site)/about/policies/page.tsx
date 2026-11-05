@@ -4,7 +4,7 @@ import { Container, Section, SectionHeading } from "@/components/ui";
 import PageHeader from "@/components/site/PageHeader";
 import { pageMeta } from "@/lib/seo";
 
-export const metadata = pageMeta("Safeguarding & Policies", "A concept overview of the safeguarding and policy framework at Meridian Academy. Fictional demo content.");
+export const metadata = pageMeta("Safeguarding & Policies", "A concept overview of the safeguarding and policy framework at Meridian Academy. Fictional demo content.", "/about/policies");
 
 const categories = [
   { icon: "ShieldCheck" as const, t: "Child Safeguarding", items: ["Designated safeguarding lead", "Clear reporting and escalation", "Safer recruitment checks", "Staff & visitor training"] },

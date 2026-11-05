@@ -33,13 +33,13 @@ const nastaliq = Noto_Nastaliq_Urdu({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://meridianacademy.example"),
+  metadataBase: new URL("https://education.wordbitx.pk"),
   title: {
     default: "Education Management Platform for Pakistan — School, College & Academy ERP by WordbitX",
     template: `%s · WordbitX Education Technology`,
   },
   description:
-    "WordbitX builds complete education management platforms for Pakistan: school management software, school ERP, college management systems, academy management software and university systems — admissions, students, PKR fees, attendance, exams, staff, parents and multi-campus management in one platform. Request a free demo at wordbitxtech.com.",
+    "WordbitX builds complete education management platforms for Pakistan: school management software, school ERP, college management systems, academy management software and university systems — admissions, students, PKR fees, attendance, exams, staff, parents and multi-campus management in one platform. Request a free demo at wordbitx.com.",
   keywords: [
     "school management software Pakistan",
     "school management system Pakistan",
@@ -76,10 +76,10 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: `${brand.name} — Concept by ${brand.partner}`,
-    url: "https://meridianacademy.example/",
+    url: "https://education.wordbitx.pk/",
     title: `${brand.name} — A Complete School & Academy Digital Ecosystem by ${brand.partner}`,
     description:
-      "Online admissions, student, parent, teacher & admin portals, LMS, attendance, exams, fees and an AI assistant — a premium EdTech concept demo by WordbitX (wordbitxtech.com).",
+      "Online admissions, student, parent, teacher & admin portals, LMS, attendance, exams, fees and an AI assistant — a premium EdTech concept demo by WordbitX (wordbitx.com).",
     locale: "en_US",
     images: [
       {
@@ -112,7 +112,7 @@ const websiteSchema = {
   "@graph": [
     {
       "@type": "EducationalOrganization",
-      "@id": "https://meridianacademy.example/#org",
+      "@id": "https://education.wordbitx.pk/#org",
       name: brand.name,
       slogan: "Where Learning Becomes Possibility",
       description:
@@ -123,7 +123,7 @@ const websiteSchema = {
     },
     {
       "@type": "Organization",
-      "@id": "https://www.wordbitxtech.com/#org",
+      "@id": "https://wordbitx.com/#org",
       name: "WordbitX Software Company",
       url: brand.partnerUrl,
       telephone: "+92-325-1888841",
@@ -153,7 +153,7 @@ const websiteSchema = {
       operatingSystem: "Web, Android, iOS",
       description:
         "A complete education management platform for schools, academies, colleges, universities and madaris: admissions, students, PKR fee management, attendance, exams, results, staff, parent communication and multi-campus management.",
-      publisher: { "@id": "https://www.wordbitxtech.com/#org" },
+      publisher: { "@id": "https://wordbitx.com/#org" },
       offers: {
         "@type": "Offer",
         price: "0",
@@ -163,10 +163,10 @@ const websiteSchema = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://meridianacademy.example/#website",
+      "@id": "https://education.wordbitx.pk/#website",
       name: `${brand.name} — Concept by WordbitX`,
-      url: "https://meridianacademy.example/",
-      publisher: { "@id": "https://www.wordbitxtech.com/#org" },
+      url: "https://education.wordbitx.pk/",
+      publisher: { "@id": "https://wordbitx.com/#org" },
     },
   ],
 };

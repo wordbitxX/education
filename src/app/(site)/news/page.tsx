@@ -6,7 +6,8 @@ import { Icon } from "@/components/icons";
 
 export const metadata = pageMeta(
   "School News",
-  "Latest news, circulars and notices from Meridian Academy — campus updates, achievements and academic announcements."
+  "Latest news, circulars and notices from Meridian Academy — campus updates, achievements and academic announcements.",
+  "/news"
 );
 
 export default function NewsPage() {

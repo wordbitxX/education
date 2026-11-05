@@ -4,7 +4,8 @@ import ServiceLanding from "@/components/site/ServiceLanding";
 
 export const metadata = pageMeta(
   "Education Management System Pakistan",
-  "A modular education management system for schools, colleges, academies and madaris in Pakistan — PKR fees, local payments, Urdu support. By WordbitX."
+  "A modular education management system for schools, colleges, academies and madaris in Pakistan — PKR fees, local payments, Urdu support. By WordbitX.",
+  "/education-management-system-pakistan"
 );
 
 export default function Page() {
