@@ -4,7 +4,7 @@ import { Container, Section, SectionHeading } from "@/components/ui";
 import PageHeader from "@/components/site/PageHeader";
 import { pageMeta } from "@/lib/seo";
 
-export const metadata = pageMeta("Leadership", "Meet the fictional leadership team behind Meridian Academy.");
+export const metadata = pageMeta("Leadership", "Meet the fictional leadership team behind Meridian Academy.", "/about/leadership");
 
 export default function LeadershipPage() {
   return (

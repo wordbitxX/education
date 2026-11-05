@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const p = programs.find((x) => x.slug === slug);
   if (!p) return {};
-  return pageMeta(p.title, `${p.short} at ${brand.name}. ${p.description}`);
+  return pageMeta(p.title, `${p.short} at ${brand.name}. ${p.description}`, `/programs/${p.slug}`);
 }
 
 export default async function ProgramPage({ params }: { params: Promise<{ slug: string }> }) {

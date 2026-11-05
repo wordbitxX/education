@@ -9,7 +9,7 @@ export const brand = {
   short: "Meridian",
   tagline: "Where Learning Becomes Possibility",
   partner: "WordbitX",
-  partnerUrl: "https://www.wordbitxtech.com/",
+  partnerUrl: "https://wordbitx.com/",
   estd: 2012,
   campuses: ["Lahore Campus", "Islamabad Campus", "Karachi Campus"],
 };
@@ -26,8 +26,8 @@ export const contact = {
   phoneUsa: "+1 (929) 619-7699",
   phoneUsaHref: "tel:+19296197699",
   phoneUsaWhatsapp: "https://wa.me/19296197699",
-  email: "info@wordbitxtech.com",
-  website: "wordbitxtech.com",
+  email: "info@wordbitx.com",
+  website: "wordbitx.com",
 };
 
 export const regions = [

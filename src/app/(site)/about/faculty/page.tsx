@@ -4,7 +4,7 @@ import { Container, Section, SectionHeading, Reveal, Badge } from "@/components/
 import PageHeader from "@/components/site/PageHeader";
 import { pageMeta } from "@/lib/seo";
 
-export const metadata = pageMeta("Faculty", "Meet the fictional teaching faculty of Meridian Academy. A concept demo showcasing faculty profiles.");
+export const metadata = pageMeta("Faculty", "Meet the fictional teaching faculty of Meridian Academy. A concept demo showcasing faculty profiles.", "/about/faculty");
 
 export default function FacultyPage() {
   return (

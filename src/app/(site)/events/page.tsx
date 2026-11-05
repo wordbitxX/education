@@ -5,7 +5,7 @@ import { Container, Section, SectionHeading, Badge, Button } from "@/components/
 import PageHeader from "@/components/site/PageHeader";
 import { pageMeta } from "@/lib/seo";
 
-export const metadata = pageMeta("School Events", "Explore upcoming events at Meridian Academy: sports day, parent-teacher conferences, workshops, competitions and festivals.");
+export const metadata = pageMeta("School Events", "Explore upcoming events at Meridian Academy: sports day, parent-teacher conferences, workshops, competitions and festivals.", "/events");
 
 export default function EventsPage() {
   const sorted = [...events].sort((a, b) => a.date.localeCompare(b.date));

@@ -7,7 +7,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata = pageMeta(
   "Online Admissions",
-  `Apply online to ${brand.name} in minutes. A multi-step online admission system with application tracking, document checklist and interview scheduling.`
+  `Apply online to ${brand.name} in minutes. A multi-step online admission system with application tracking, document checklist and interview scheduling.`,
+  "/admissions"
 );
 
 const steps = [

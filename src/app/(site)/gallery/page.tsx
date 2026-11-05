@@ -6,7 +6,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata = pageMeta(
   "Campus Gallery",
-  "Photos from life at Meridian Academy — classrooms, laboratories, the library, sports and student life across our campuses."
+  "Photos from life at Meridian Academy — classrooms, laboratories, the library, sports and student life across our campuses.",
+  "/gallery"
 );
 
 export default function GalleryPage() {

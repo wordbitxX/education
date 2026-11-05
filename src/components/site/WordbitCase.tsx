@@ -68,7 +68,7 @@ export default function WordbitCase({ compact = false }: { compact?: boolean }) 
                 management software.
               </p>
               <div className="mt-4 flex flex-wrap gap-3">
-                <Button href="https://www.wordbitxtech.com/" size="sm" icon>
+                <Button href="https://wordbitx.com/" size="sm" icon>
                   Build Your Education Platform
                 </Button>
                 <Link

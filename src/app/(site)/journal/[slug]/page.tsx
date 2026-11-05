@@ -118,7 +118,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const post = journalPosts.find((p) => p.id === slug);
   if (!post) return {};
-  return pageMeta(post.title, post.excerpt);
+  return pageMeta(post.title, post.excerpt, `/journal/${post.id}`);
 }
 
 export default async function JournalArticle({ params }: { params: Promise<{ slug: string }> }) {
@@ -218,7 +218,7 @@ export default async function JournalArticle({ params }: { params: Promise<{ slu
               We design and build custom school websites, portals, LMS and ERP platforms.
             </p>
             <div className="mt-5 flex flex-wrap gap-3">
-              <Button href="https://www.wordbitxtech.com/" variant="light" icon>Build Your Education Platform</Button>
+              <Button href="https://wordbitx.com/" variant="light" icon>Build Your Education Platform</Button>
               <Button href="/journal" variant="outline-light">More guides</Button>
             </div>
           </div>

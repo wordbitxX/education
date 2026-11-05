@@ -8,7 +8,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata = pageMeta(
   "About Meridian Academy",
-  `${brand.name} is a fictional international school ecosystem demonstrating a complete school management platform. Learn about our philosophy, leadership, faculty and campus.`
+  `${brand.name} is a fictional international school ecosystem demonstrating a complete school management platform. Learn about our philosophy, leadership, faculty and campus.`,
+  "/about"
 );
 
 const timeline = [

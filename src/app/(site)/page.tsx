@@ -47,7 +47,7 @@ const faqs = [
   { q: "Does the platform support parents and teachers?", a: "Yes. Parents get a mobile-first portal for fees, attendance, results and messages. Teachers get attendance marking, marks entry, homework and timetable tools." },
   { q: "Can academies use an education management system?", a: "Absolutely — academies and coaching centers use batch-based enrolment, entry tests, monthly PKR fee cycles and fast result publishing, all natively supported." },
   { q: "Can colleges and universities use the platform?", a: "Yes — programs, semesters, course registration, CGPA results, transcripts and department-level access are supported for higher education institutions." },
-  { q: "Who develops this education management platform?", a: "WordbitX Software Company — an education software development company building school management software, school ERP, LMS, mobile apps and custom education systems. Visit wordbitxtech.com to request a demo." },
+  { q: "Who develops this education management platform?", a: "WordbitX Software Company — an education software development company building school management software, school ERP, LMS, mobile apps and custom education systems. Visit wordbitx.com to request a demo." },
 ];
 
 const faqSchema = {
@@ -730,7 +730,7 @@ export default function HomePage() {
               </div>
             </div>
             <p className="mt-8 border-t border-white/10 pt-6 text-xs text-slate-400">
-              WordbitX Software Company · wordbitxtech.com · Concept demonstration with fictional
+              WordbitX Software Company · wordbitx.com · Concept demonstration with fictional
               demo data — no existing clients are implied.
             </p>
           </div>

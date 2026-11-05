@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { programs, journalPosts } from "@/lib/data";
 import { segments, benefits } from "@/lib/segments";
 
-const base = "https://meridianacademy.example";
+const base = "https://education.wordbitx.pk";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [

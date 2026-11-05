@@ -4,7 +4,8 @@ import ServiceLanding from "@/components/site/ServiceLanding";
 
 export const metadata = pageMeta(
   "School Management Software Pakistan",
-  "School management software for Pakistani schools — classes, sections, board-aligned results, PKR fee challans and parent communication. By WordbitX."
+  "School management software for Pakistani schools — classes, sections, board-aligned results, PKR fee challans and parent communication. By WordbitX.",
+  "/school-management-software-pakistan"
 );
 
 export default function Page() {

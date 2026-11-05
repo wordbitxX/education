@@ -4,7 +4,7 @@ import { Container, Section, SectionHeading, Button } from "@/components/ui";
 import PageHeader from "@/components/site/PageHeader";
 import { pageMeta } from "@/lib/seo";
 
-export const metadata = pageMeta("Careers", "Join a fictional international academy. A concept careers page for Meridian Academy.");
+export const metadata = pageMeta("Careers", "Join a fictional international academy. A concept careers page for Meridian Academy.", "/about/careers");
 
 const roles = [
   { title: "Head of Science", dept: "STEM", type: "Full-time", tag: "Leadership" },

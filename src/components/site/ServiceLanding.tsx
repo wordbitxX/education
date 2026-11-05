@@ -91,7 +91,7 @@ export default function ServiceLanding({ data }: { data: ServicePage }) {
                   href={brand.partnerUrl}
                   variant="outline-light"
                 >
-                  wordbitxtech.com
+                  wordbitx.com
                 </Button>
               </div>
               <CallStrip tone="dark" />

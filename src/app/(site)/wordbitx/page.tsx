@@ -11,13 +11,13 @@ export const metadata: Metadata = {
   title: "School Management Software Development — WordbitX Case Study",
   description:
     "How WordbitX builds complete school & academy ecosystems: school website, online admissions, student/parent/teacher portals, admin dashboard, LMS, attendance, exams, fee management and AI assistants. A concept demo — school management software development company, LMS development and education app development by WordbitX.",
-  alternates: { canonical: "https://meridianacademy.example/wordbitx" },
+  alternates: { canonical: "https://education.wordbitx.pk/wordbitx" },
   openGraph: {
-    url: "https://meridianacademy.example/wordbitx",
+    url: "https://education.wordbitx.pk/wordbitx",
     type: "article",
     title: "We can build your entire digital education ecosystem — WordbitX",
     description:
-      "A complete school management platform concept: website, portals, LMS, AI and admin — designed & developed by WordbitX (wordbitxtech.com).",
+      "A complete school management platform concept: website, portals, LMS, AI and admin — designed & developed by WordbitX (wordbitx.com).",
     images: [
       {
         url: "https://images.pexels.com/photos/29659894/pexels-photo-29659894.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=630",
@@ -70,7 +70,7 @@ const caseStudySchema = {
   datePublished: "2026-03-10",
   author: { "@type": "Organization", name: "WordbitX", url: brand.partnerUrl },
   publisher: { "@type": "Organization", name: "WordbitX", url: brand.partnerUrl },
-  isPartOf: { "@type": "WebSite", name: "Meridian Academy — Concept by WordbitX", url: "https://meridianacademy.example/" },
+  isPartOf: { "@type": "WebSite", name: "Meridian Academy — Concept by WordbitX", url: "https://education.wordbitx.pk/" },
 };
 
 export default function WordbitxPage() {

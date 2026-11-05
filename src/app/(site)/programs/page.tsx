@@ -7,7 +7,8 @@ import { pageMeta } from "@/lib/seo";
 
 export const metadata = pageMeta(
   "Academic Programs",
-  `Explore the academic programs at ${brand.name}: Early Years, Primary, Middle School, Secondary, O-Level, A-Level, Foundation, Professional and Academy programs.`
+  `Explore the academic programs at ${brand.name}: Early Years, Primary, Middle School, Secondary, O-Level, A-Level, Foundation, Professional and Academy programs.`,
+  "/programs"
 );
 
 export default function ProgramsPage() {

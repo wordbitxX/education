@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: s.metaTitle,
     description: s.metaDesc,
     alternates: { canonical: `/solutions/${s.slug}` },
-    openGraph: { title: `${s.metaTitle} · WordbitX`, description: s.metaDesc, type: "article" },
+    openGraph: { url: `/solutions/${s.slug}`, title: `${s.metaTitle} · WordbitX`, description: s.metaDesc, type: "article" },
     twitter: { card: "summary_large_image", title: s.metaTitle, description: s.metaDesc },
   };
 }

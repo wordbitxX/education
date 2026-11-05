@@ -4,7 +4,8 @@ import ServiceLanding from "@/components/site/ServiceLanding";
 
 export const metadata = pageMeta(
   "Academy Management Software Pakistan",
-  "Academy & coaching center management software — batches, entry tests, monthly PKR fees and fast result publishing for Pakistani academies. By WordbitX."
+  "Academy & coaching center management software — batches, entry tests, monthly PKR fees and fast result publishing for Pakistani academies. By WordbitX.",
+  "/academy-management-software-pakistan"
 );
 
 export default function Page() {
